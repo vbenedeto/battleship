@@ -1,6 +1,6 @@
 import { ship } from "./ship";
 
-describe("ship", () => {
+describe("Ship", () => {
   let shipObj;
 
   beforeEach(() => {
@@ -36,11 +36,3 @@ describe("ship", () => {
     expect(shipObj.isSunk()).toBe(false);
   });
 })
-
-/*
-Ship factory tests:
-  - object creation
-  - length property
-  - hit tracking
-  - isSunk calculation
-*/
